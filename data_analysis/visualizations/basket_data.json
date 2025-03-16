@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "name": "Conservative Alpha",
+    "numStocks": 7,
+    "avgBeta": 0.52,
+    "avgSMB": 0.1,
+    "avgHML": 0.05,
+    "predictedReturn": 0.08,
+    "predictedVolatility": 0.1,
+    "riskRating": 1,
+    "returnRating": 3,
+    "riskDescription": "Very Low",
+    "returnDescription": "Moderate",
+    "stocks": [
+      {
+        "ticker": "SMCI",
+        "beta": 0.52,
+        "smb": 0.1,
+        "hml": 0.05,
+        "expectedReturn": 0.15,
+        "volatility": 0.25
+      },
+      {
+        "ticker": "LLY",
+        "beta": 0.48,
+        "smb": 0.08,
+        "hml": 0.06,
+        "expectedReturn": 0.13,
+        "volatility": 0.22
+      },
+      {
+        "ticker": "MCK",
+        "beta": 0.55,
+        "smb": 0.12,
+        "hml": 0.04,
+        "expectedReturn": 0.12,
+        "volatility": 0.24
+      },
+      {
+        "ticker": "DECK",
+        "beta": 0.5,
+        "smb": 0.09,
+        "hml": 0.05,
+        "expectedReturn": 0.14,
+        "volatility": 0.23
+      },
+      {
+        "ticker": "HES",
+        "beta": 0.54,
+        "smb": 0.11,
+        "hml": 0.04,
+        "expectedReturn": 0.11,
+        "volatility": 0.26
+      },
+      {
+        "ticker": "BNTX",
+        "beta": 0.53,
+        "smb": 0.1,
+        "hml": 0.06,
+        "expectedReturn": 0.13,
+        "volatility": 0.27
+      },
+      {
+        "ticker": "SJM",
+        "beta": 0.51,
+        "smb": 0.1,
+        "hml": 0.05,
+        "expectedReturn": 0.12,
+        "volatility": 0.24
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Moderate Alpha",
+    "numStocks": 7,
+    "avgBeta": 0.71,
+    "avgSMB": 0.2,
+    "avgHML": 0.0,
+    "predictedReturn": 0.095,
+    "predictedVolatility": 0.1286,
+    "riskRating": 2,
+    "returnRating": 3,
+    "riskDescription": "Low",
+    "returnDescription": "Moderate",
+    "stocks": [
+      {
+        "ticker": "AVGO",
+        "beta": 0.7,
+        "smb": 0.2,
+        "hml": 0.0,
+        "expectedReturn": 0.15,
+        "volatility": 0.28
+      },
+      {
+        "ticker": "CRWD",
+        "beta": 0.72,
+        "smb": 0.22,
+        "hml": -0.01,
+        "expectedReturn": 0.16,
+        "volatility": 0.3
+      },
+      {
+        "ticker": "PANW",
+        "beta": 0.71,
+        "smb": 0.19,
+        "hml": 0.01,
+        "expectedReturn": 0.14,
+        "volatility": 0.29
+      },
+      {
+        "ticker": "PSX",
+        "beta": 0.69,
+        "smb": 0.18,
+        "hml": 0.0,
+        "expectedReturn": 0.13,
+        "volatility": 0.27
+      },
+      {
+        "ticker": "GEHC",
+        "beta": 0.73,
+        "smb": 0.21,
+        "hml": -0.01,
+        "expectedReturn": 0.12,
+        "volatility": 0.28
+      },
+      {
+        "ticker": "TTD",
+        "beta": 0.72,
+        "smb": 0.2,
+        "hml": 0.0,
+        "expectedReturn": 0.14,
+        "volatility": 0.29
+      },
+      {
+        "ticker": "DXCM",
+        "beta": 0.7,
+        "smb": 0.2,
+        "hml": 0.01,
+        "expectedReturn": 0.13,
+        "volatility": 0.28
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Balanced High Return",
+    "numStocks": 7,
+    "avgBeta": 0.87,
+    "avgSMB": 0.3,
+    "avgHML": -0.1,
+    "predictedReturn": 0.115,
+    "predictedVolatility": 0.1571,
+    "riskRating": 3,
+    "returnRating": 4,
+    "riskDescription": "Moderate",
+    "returnDescription": "Moderate-High",
+    "stocks": [
+      {
+        "ticker": "VST",
+        "beta": 0.85,
+        "smb": 0.3,
+        "hml": -0.1,
+        "expectedReturn": 0.17,
+        "volatility": 0.32
+      },
+      {
+        "ticker": "AXON",
+        "beta": 0.88,
+        "smb": 0.31,
+        "hml": -0.09,
+        "expectedReturn": 0.16,
+        "volatility": 0.33
+      },
+      {
+        "ticker": "PWR",
+        "beta": 0.86,
+        "smb": 0.29,
+        "hml": -0.11,
+        "expectedReturn": 0.18,
+        "volatility": 0.31
+      },
+      {
+        "ticker": "POOL",
+        "beta": 0.89,
+        "smb": 0.32,
+        "hml": -0.08,
+        "expectedReturn": 0.15,
+        "volatility": 0.34
+      },
+      {
+        "ticker": "GFI",
+        "beta": 0.87,
+        "smb": 0.3,
+        "hml": -0.1,
+        "expectedReturn": 0.17,
+        "volatility": 0.33
+      },
+      {
+        "ticker": "MOH",
+        "beta": 0.85,
+        "smb": 0.28,
+        "hml": -0.12,
+        "expectedReturn": 0.16,
+        "volatility": 0.32
+      },
+      {
+        "ticker": "BG",
+        "beta": 0.88,
+        "smb": 0.3,
+        "hml": -0.1,
+        "expectedReturn": 0.15,
+        "volatility": 0.33
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Growth Alpha",
+    "numStocks": 7,
+    "avgBeta": 1.13,
+    "avgSMB": 0.4,
+    "avgHML": -0.2,
+    "predictedReturn": 0.135,
+    "predictedVolatility": 0.1857,
+    "riskRating": 4,
+    "returnRating": 4,
+    "riskDescription": "High",
+    "returnDescription": "Moderate-High",
+    "stocks": [
+      {
+        "ticker": "HWM",
+        "beta": 1.1,
+        "smb": 0.4,
+        "hml": -0.2,
+        "expectedReturn": 0.19,
+        "volatility": 0.38
+      },
+      {
+        "ticker": "MPC",
+        "beta": 1.15,
+        "smb": 0.42,
+        "hml": -0.19,
+        "expectedReturn": 0.18,
+        "volatility": 0.39
+      },
+      {
+        "ticker": "OXY",
+        "beta": 1.12,
+        "smb": 0.39,
+        "hml": -0.21,
+        "expectedReturn": 0.2,
+        "volatility": 0.37
+      },
+      {
+        "ticker": "APP",
+        "beta": 1.14,
+        "smb": 0.41,
+        "hml": -0.18,
+        "expectedReturn": 0.17,
+        "volatility": 0.4
+      },
+      {
+        "ticker": "CTAS",
+        "beta": 1.11,
+        "smb": 0.38,
+        "hml": -0.22,
+        "expectedReturn": 0.19,
+        "volatility": 0.38
+      },
+      {
+        "ticker": "ROK",
+        "beta": 1.13,
+        "smb": 0.4,
+        "hml": -0.2,
+        "expectedReturn": 0.18,
+        "volatility": 0.39
+      },
+      {
+        "ticker": "UBER",
+        "beta": 1.16,
+        "smb": 0.41,
+        "hml": -0.19,
+        "expectedReturn": 0.19,
+        "volatility": 0.4
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Aggressive High Return",
+    "numStocks": 7,
+    "avgBeta": 1.53,
+    "avgSMB": 0.5,
+    "avgHML": -0.3,
+    "predictedReturn": 0.16,
+    "predictedVolatility": 0.2296,
+    "riskRating": 5,
+    "returnRating": 5,
+    "riskDescription": "Very High",
+    "returnDescription": "Extremely High",
+    "stocks": [
+      {
+        "ticker": "TRGP",
+        "beta": 1.5,
+        "smb": 0.5,
+        "hml": -0.3,
+        "expectedReturn": 0.24,
+        "volatility": 0.45
+      },
+      {
+        "ticker": "PLTR",
+        "beta": 1.55,
+        "smb": 0.52,
+        "hml": -0.29,
+        "expectedReturn": 0.25,
+        "volatility": 0.46
+      },
+      {
+        "ticker": "NVDA",
+        "beta": 1.52,
+        "smb": 0.49,
+        "hml": -0.31,
+        "expectedReturn": 0.27,
+        "volatility": 0.44
+      },
+      {
+        "ticker": "TPL",
+        "beta": 1.54,
+        "smb": 0.51,
+        "hml": -0.28,
+        "expectedReturn": 0.23,
+        "volatility": 0.47
+      },
+      {
+        "ticker": "EQT",
+        "beta": 1.51,
+        "smb": 0.48,
+        "hml": -0.32,
+        "expectedReturn": 0.24,
+        "volatility": 0.45
+      },
+      {
+        "ticker": "TSLA",
+        "beta": 1.56,
+        "smb": 0.53,
+        "hml": -0.27,
+        "expectedReturn": 0.26,
+        "volatility": 0.48
+      },
+      {
+        "ticker": "BLDR",
+        "beta": 1.53,
+        "smb": 0.5,
+        "hml": -0.3,
+        "expectedReturn": 0.24,
+        "volatility": 0.46
+      }
+    ]
+  }
+]
